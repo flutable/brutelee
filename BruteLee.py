@@ -9,7 +9,7 @@ import argparse
 import paramiko
 
 # Create a parser & command-line arguments
-ap = argparse.ArgumentParser(usage="""'%(prog)s -u username -s serverIP [-pwl password_length ] [password character set options | -f passwordfile \n
+ap = argparse.ArgumentParser(usage="""'%(prog)s -u username -s serverIP [-pwl password_length ] [password character set options | -f passwordfile] \n
 \n                          
 Example 1: python BruteLee.py -u user02 -s 192.168.81.129 -num -fpw 01 -d \n
 
